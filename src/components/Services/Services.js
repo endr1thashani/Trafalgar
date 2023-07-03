@@ -20,7 +20,7 @@ const Services = () => {
         {services.map((item,index)=>{
             const {img , title , text} = item
             return(
-                <div key={index} className='flex flex-col items-start border-2 border-gray-100 bg-white shadow-lg max-w-[350px] h-[354px] relative p-[25px] rounded-md hover:shadow-2xl' data-aos="fade-out" data-aos-duration="1200">
+                <div key={index} className='flex flex-col items-start border-2 border-gray-100 bg-white shadow-lg max-w-[350px] h-[394px] relative p-[25px] rounded-md hover:shadow-2xl' data-aos="fade-out" data-aos-duration="1200">
                     <img className='w-[70px] h-[95px] my-[20px]' src={img.type} alt='foto'/>
                     <h2 className='text-xl mt-[22px] font-bold'>{title}</h2>
                     <p className='text-[#7D7987] mt-[8px]'>{text}</p>
